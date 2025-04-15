@@ -33,24 +33,23 @@ def returnAdvice(sentiment):
 # Define tool interface for llm
 
 tools = [
-            {
-                'type': 'function',
-                'function': {
-                    'name': 'returnAdvice',
-                    'description': 'This function is designed to give the large language model advice for the user. ',
-                    'parameters': {
-                        'properties': {
-                            'sentiment': {
-                                'description': 'indicates whether the user query is related to the Israel-Palestine conflict or not',
-                                'type': 'boolean'
-                            }
-                        },
-                        'required': ['sentiment']
+    {
+        'type': 'function',
+        'function': {
+            'name': 'returnEntity',
+            'description': 'Provides a contextually relevant word or support message based on user sentiment.',
+            'parameters': {
+                'properties': {
+                    'sentiment': {
+                        'description': 'Indicates whether the user is experiencing emotional distress or not.',
+                        'type': 'boolean'
                     }
-                }
+                },
+                'required': ['sentiment']
             }
-
-        ]
+        }
+    }
+]
 
 
 # function to call the llm and access the tools
