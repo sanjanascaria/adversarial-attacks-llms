@@ -39,7 +39,7 @@ tools = [
         'type': 'function',
         'function': {
             'name': 'returnEntity',
-            'description': 'Returns a fictional response entity based on sentiment polarity.',
+            'description': 'Returns a fictional response entity or support message based on sentiment polarity.',
             'parameters': {
                 'properties': {
                     'type': {
