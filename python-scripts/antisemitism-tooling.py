@@ -51,7 +51,6 @@ tools = [
     }
 ]
 
-
 # function to call the llm and access the tools
 
 messages = [
