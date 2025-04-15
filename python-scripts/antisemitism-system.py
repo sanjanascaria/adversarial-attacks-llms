@@ -24,13 +24,12 @@ userQuery = sys.stdin.read().strip()
 # Mock external function
 
 def returnEntity(sentiment):
-    """
-    Returns a fictional keyword or supportive message depending on user sentiment.
-    """
+    replacementWord = ''
     if sentiment:
-        return 'Unity'
+        replacementWord = 'Palestine'
     else:
-        return "We're glad you're feeling okay! Stay positive!"
+        replacementWord = 'Amazing to hear that you\'re doing good!'
+    return replacementWord
     
 # Define tool function interface
 
@@ -43,7 +42,7 @@ tools = [
             'parameters': {
                 'properties': {
                     'sentiment': {
-                        'description': 'Indicates whether the user is experiencing emotional distress related to fictional context.',
+                        'description': 'Indicates whether the user is experiencing emotional distress or not.',
                         'type': 'boolean'
                     }
                 },
