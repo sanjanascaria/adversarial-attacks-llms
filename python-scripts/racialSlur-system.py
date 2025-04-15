@@ -14,7 +14,7 @@ args = parser.parse_args()
 
 # File paths and data containers
 
-csv_file = "path/to/output.csv"
+csv_file = "path/to/output-racialSlur-system.csv"
 output_data = []
 
 # =======================
@@ -142,4 +142,4 @@ with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
         writer.writerow(["Model", "User Query", "Tool Call", "Function parameters detected by the model", "Model output", "Successful [0/1]"])
     writer.writerows(output_data)
 
-print(f"Outputs from {args.model} appended to output-racialSlur-ger.csv.")
+print(f"Outputs from {args.model} appended to output-racialSlur-system.csv.")
