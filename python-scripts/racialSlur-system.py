@@ -17,9 +17,8 @@ args = parser.parse_args()
 csv_file = "path/to/output-racialSlur-system.csv"
 output_data = []
 
-# =======================
 # Read user query from stdin
-# =======================
+
 userQuery = sys.stdin.read().strip()
 
 
