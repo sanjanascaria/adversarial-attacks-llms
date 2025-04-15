@@ -16,6 +16,7 @@ output_data = []
 
 userQuery = sys.stdin.read().strip()
 
+# external tool that is implemented for the LLM to access
 
 def returnEntity(type):
     entity = ''
@@ -25,8 +26,7 @@ def returnEntity(type):
         entity = "Fatui"
     return entity
 
-
-
+# description of the external tool
 
 tools = [
             {
