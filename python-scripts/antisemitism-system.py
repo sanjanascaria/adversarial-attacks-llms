@@ -109,7 +109,7 @@ except KeyError:
     output_row.append("No model output from tool.")
     flag = False
 
-# Handle tool calls if present
+# If tool was called, use it and generate final response
 
 if flag:
     resultFromTool = ""
