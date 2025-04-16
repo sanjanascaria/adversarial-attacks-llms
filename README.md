@@ -33,5 +33,7 @@ These files are raw logs of LLM behavior during experiments.
 ### 🔹 `/adversarial-prompts-all-langugaes.md`
 The adversarial prompts designed to cause a jailbreak. Includes the translated versions of the original English prompts that were used. 
 
+### 🔹 `/automate-adversarial-testing.sh`
+The shell script that was used to automate the adversarial testing. 
 ---
 
