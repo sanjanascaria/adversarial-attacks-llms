@@ -30,8 +30,8 @@ Python scripts that contain the code that were used to jailbreak the llm using i
 CSV files containing structured outputs from different LLMs.
 These files are raw logs of LLM behavior during experiments.
 
-### 🔹 `prompts/`
-The adversarial prompts designed to cause a jailbreak. Includes the translated versions of the original english pormpt that were used. 
+### 🔹 `/adversarial-prompts-all-langugaes.md/`
+The adversarial prompts designed to cause a jailbreak. Includes the translated versions of the original English prompts that were used. 
 
 ---
 
