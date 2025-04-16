@@ -9,6 +9,6 @@ do
     for item in {1..100} # Note: lama3.1:70b and qwen2.5:72b was only executed 10 times due to hardware restrictions.
     do
         echo "$model run $item"
-        echo "$user_input" | /home/smannan/Documents/thesis-llm-attacks-12-influence-llm-context-using-tool-calls/ollama/bin/python tooling.py $model
+        echo "$user_input" | /path/to/python-script.py $model
     done
 done
