@@ -18,6 +18,11 @@ Models tested include:
 - `qwen2.5:72b`
 - `smollm2:1.7b`
 
+Languages tested:
+- `English`
+- `German`
+- `French`
+- `Malayalam`
 
 ---
 
