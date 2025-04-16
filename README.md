@@ -23,27 +23,15 @@ Models tested include:
 
 ## 🧪 Contents
 
-### 🔹 `src/run_prompting.py`
-Main script that takes a user query (from stdin), loads the selected LLM model via `ollama`, and optionally invokes tools/functions for complex reasoning. Outputs are logged in a CSV format for later analysis.
+### 🔹 `python-scripts`
+Python scripts that contain the code that were used to jailbreak the llm using indirect prompt injection and system prompt injection.
 
 ### 🔹 `outputs/*.csv`
-CSV files containing structured outputs from different LLMs, including:
-
-- User query
-- Whether a tool was invoked
-- Final model response
-- Output flags
-
+CSV files containing structured outputs from different LLMs.
 These files are raw logs of LLM behavior during experiments.
 
 ### 🔹 `prompts/`
-Adversarial or challenging prompts used to test the limits of LLMs. Includes multilingual examples to evaluate model robustness in non-English contexts.
+The adversarial prompts designed to cause a jailbreak. Includes the translated versions of the original english pormpt that were used. 
 
 ---
 
-## 🛠️ How to Run
-
-1. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
