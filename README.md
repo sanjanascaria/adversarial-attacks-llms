@@ -23,14 +23,14 @@ Models tested include:
 
 ## 🧪 Contents
 
-### 🔹 `python-scripts`
+### 🔹 /`python-scripts`
 Python scripts that contain the code that were used to jailbreak the llm using indirect prompt injection and system prompt injection.
 
 ### 🔹 `outputs/*.csv`
 CSV files containing structured outputs from different LLMs.
 These files are raw logs of LLM behavior during experiments.
 
-### 🔹 `/adversarial-prompts-all-langugaes.md/`
+### 🔹 `/adversarial-prompts-all-langugaes.md`
 The adversarial prompts designed to cause a jailbreak. Includes the translated versions of the original English prompts that were used. 
 
 ---
